@@ -51,7 +51,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		}
 
 		resp, _ := client.PostForm(CONF_LOGIN_URL, url.Values{
-		"os_username": {CONF_USRENAME},
+		"os_username": {CONF_USERNAME},
 		"os_password": {CONF_PASSWORD},
 		})
 
