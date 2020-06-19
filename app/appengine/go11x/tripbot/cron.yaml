@@ -1,0 +1,5 @@
+cron:
+        - description: "lab meeting mailout"
+          url: /jobs/meeting_schedule_notifier
+          schedule: every monday 09:00
+          timezone: Canada/Eastern
